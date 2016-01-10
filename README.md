@@ -62,6 +62,10 @@ INSERT INTO `students` (`student_id`, `email_address`, `password`, `first_name`,
 (3, 'jimbo@yahoo.com', 'test1234', 'jimbo', 'rembo', '852452135', '', 'active', '0000-00-00 00:00:00', NULL),
 (4, 'jimbo23@yahoo.com', '16d7a4fca7442dda3ad93c9a726597e4', 'Jorel', 'rembo', '852452135', '::1', 'active', '2016-01-10 03:38:01', NULL);
 
+3. Run from exemple: 'http://localhost/RControl/index.php/api/student/1?format=json&X-API-KEY=1234'
+OR much better
+using POSTMAN from Chrome 'https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?utm_source=chrome-ntp-icon'
+
 
 
 
